@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F42B81DA-AB9A-45CB-8B32-3640A911EBCD}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+		SolutionInfo.cs = SolutionInfo.cs
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syrwag.Model", "Syrwag.Model\Syrwag.Model.csproj", "{BA206CE4-167A-4E6F-B467-CEEB0740D358}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syrwag.Movies.CosmosDb.MsDocumentClient", "Syrwag.Movies.CosmosDb.MsDocumentClient\Syrwag.Movies.CosmosDb.MsDocumentClient.csproj", "{2C57300A-5FA7-48FC-9727-2A34B9B68026}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syrwag.Movies.TinkerPop.GremlinClient", "Syrwag.Movies.TinkerPop.GremlinClient\Syrwag.Movies.TinkerPop.GremlinClient.csproj", "{200F4F1D-B647-4CF7-99CA-97EED6F809B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syrwag.MoviesApp", "Syrwag.MoviesApp\Syrwag.MoviesApp.csproj", "{521FCC90-F912-4826-AFA9-7ED48581C377}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syrwag.Movies.Neo4j.Neo4jClient", "Syrwag.Movies.Neo4j.Neo4jClient\Syrwag.Movies.Neo4j.Neo4jClient.csproj", "{22ADAD4A-30F1-4872-8498-C5D90EAE2A9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA206CE4-167A-4E6F-B467-CEEB0740D358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA206CE4-167A-4E6F-B467-CEEB0740D358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA206CE4-167A-4E6F-B467-CEEB0740D358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA206CE4-167A-4E6F-B467-CEEB0740D358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C57300A-5FA7-48FC-9727-2A34B9B68026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C57300A-5FA7-48FC-9727-2A34B9B68026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C57300A-5FA7-48FC-9727-2A34B9B68026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C57300A-5FA7-48FC-9727-2A34B9B68026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200F4F1D-B647-4CF7-99CA-97EED6F809B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200F4F1D-B647-4CF7-99CA-97EED6F809B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200F4F1D-B647-4CF7-99CA-97EED6F809B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200F4F1D-B647-4CF7-99CA-97EED6F809B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521FCC90-F912-4826-AFA9-7ED48581C377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521FCC90-F912-4826-AFA9-7ED48581C377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521FCC90-F912-4826-AFA9-7ED48581C377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521FCC90-F912-4826-AFA9-7ED48581C377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22ADAD4A-30F1-4872-8498-C5D90EAE2A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22ADAD4A-30F1-4872-8498-C5D90EAE2A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22ADAD4A-30F1-4872-8498-C5D90EAE2A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22ADAD4A-30F1-4872-8498-C5D90EAE2A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F44EDA7A-E493-437C-A15D-EE5A5C0CA843}
+	EndGlobalSection
+EndGlobal

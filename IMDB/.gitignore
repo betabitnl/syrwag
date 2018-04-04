@@ -1,0 +1,5 @@
+## Ignore extra downloaded and processed files.
+
+*.tsv
+*.tmp
+*.gz

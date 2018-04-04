@@ -1,0 +1,26 @@
+// Add places.
+g.addV('Place').property('id', 'A').property('name', 'A')
+g.addV('Place').property('id', 'B').property('name', 'B')
+g.addV('Place').property('id', 'C').property('name', 'C')
+g.addV('Place').property('id', 'D').property('name', 'D')
+
+// Add the routes
+g.V().hasLabel('Place').has('id', 'A').addE('CONNECTS_TO').property('cost', 1).property('name', 'A->B 1').to(g.V().hasLabel('Place').has('id', 'B'))
+g.V('A').addE('CONNECTS_TO').property('cost', 2).property('name', 'A->B 2').to(g.V('B'))
+g.V('A').addE('CONNECTS_TO').property('cost', 3).property('name', 'A->C 1').to(g.V('C'))
+g.V('A').addE('CONNECTS_TO').property('cost', 15).property('name', 'A->C 2').to(g.V('C'))
+g.V('A').addE('CONNECTS_TO').property('cost', 10).property('name', 'A->D').to(g.V('D'))
+g.V('B').addE('CONNECTS_TO').property('cost', 5).property('name', 'B->D').to(g.V('D'))
+g.V('C').addE('CONNECTS_TO').property('cost', 2).property('name', 'C->D').to(g.V('D'))
+
+// Update a vertex, replace a property.
+g.V().hasId('A').property('name', 'AA')
+g.V('A').property('name', 'A')
+// Add a property
+g.V('A').property('type', 'Important')g.
+
+// Add another value to an existing property.
+g.V('A').property(list, 'name', 'Center')
+
+// Retrieve properties.
+g.V('A').properties('name', 'type')
